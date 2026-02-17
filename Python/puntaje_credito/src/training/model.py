@@ -65,7 +65,7 @@ class CreditScoringModel(nn.Module):
         return self.network(x)
 
     def get_model_info(self) -> dict:
-        """Get model architecture information"""
+        """Obtiene la informacion de la arquitectura"""
         return {
             "model_type": "CreditScoringModel",
             "num_features": self.num_features,
