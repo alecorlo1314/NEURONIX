@@ -88,3 +88,4 @@ waitress==3.0.2
 wcwidth==0.6.0
 Werkzeug==3.1.5
 zipp==3.23.0
+pytest==9.0.2
