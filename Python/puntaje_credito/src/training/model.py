@@ -8,7 +8,7 @@ class CreditScoringModel(nn.Module):
     """
     Perceptron Multi-capas para Puntaje de Credito
     
-    Architecture:
+    Arquitectura:
     - Capa de Entrada: num_features (depende del preprocesamiento porque se pueden eliminar)
     - Capas Ocultas: Dinamicas
     - Capa de Salida: Linear (-> 1) para producir logits.
