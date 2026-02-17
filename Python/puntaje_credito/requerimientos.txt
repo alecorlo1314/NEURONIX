@@ -61,6 +61,7 @@ pycparser==3.0
 pydantic==2.12.5
 pydantic_core==2.41.5
 pyparsing==3.3.2
+pytest==9.0.2
 python-dateutil==2.9.0.post0
 python-dotenv==1.2.1
 pytz==2025.2
@@ -88,4 +89,3 @@ waitress==3.0.2
 wcwidth==0.6.0
 Werkzeug==3.1.5
 zipp==3.23.0
-pytest==9.0.2
