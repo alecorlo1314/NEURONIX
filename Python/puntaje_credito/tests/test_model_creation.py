@@ -14,7 +14,7 @@ try:
     from src.training.model import CreditScoringModel
 except ImportError:
     log.error("Asegúrate de que la estructura de tu proyecto sea correcta.")
-    log.error("Este script de test espera estar en una carpeta 'tests/' y el modelo en 'src/training/model.py'")
+    log.error("Este script de prueba espera estar en una carpeta 'tests/' y el modelo en 'src/training/model.py'")
     sys.exit(1)
     
     
