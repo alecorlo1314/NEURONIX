@@ -6,7 +6,7 @@ from typing import Optional, List
 
 class CreditScoringModel(nn.Module):
     """
-    Multi-Layer Perceptron for Credit Scoring
+    Perceptron Multicapas para Puntaje de Credito
     
     Architecture:
     - Capa de Entrada: num_features (depende del preprocesamiento porque se pueden eliminar)
