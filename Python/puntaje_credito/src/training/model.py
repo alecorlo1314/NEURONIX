@@ -9,9 +9,9 @@ class CreditScoringModel(nn.Module):
     Multi-Layer Perceptron for Credit Scoring
     
     Architecture:
-    - Input Layer: num_features (depends on preprocessing)
-    - Hidden Layers: Dynamic
-    - Output Layer: Linear (-> 1) para producir logits.
+    - Capa de Entrada: num_features (depends on preprocessing)
+    - Capas Ocultas: Dynamic
+    - Capa de Salida: Linear (-> 1) para producir logits.
     """
     def __init__(self, num_features: int, hidden_layers: List[int],  dropout_rate: float = 0.1, use_batch_norm: bool = True, activation_fn: str = "ReLU"):
         super(CreditScoringModel, self).__init__()
