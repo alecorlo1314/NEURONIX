@@ -1,0 +1,13 @@
+﻿# Framework para la API
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+pydantic==2.5.3
+
+# Deep Learning
+scikit-learn==1.7.1
+numpy==2.1.2
+joblib==1.5.1
+pandas==2.3.1
+
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.7.1
